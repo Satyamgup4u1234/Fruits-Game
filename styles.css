@@ -1,0 +1,147 @@
+body {
+    /* background-image: linear-gradient(to right, rgb(222, 216, 47), rgb(228, 233, 94)); */
+    background-image: linear-gradient(to right, rgb(50, 160, 211), rgb(225, 202, 202));
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    letter-spacing: 0.5rem;
+    font-family: cursive;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, rgb(222, 216, 47), rgb(228, 233, 94)); */
+    background-image: linear-gradient(to right, rgb(50, 160, 211), rgb(225, 202, 202));
+    height: 3rem;
+    width: 99.9%;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bb {
+    margin-top: 3rem;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+
+.p {
+    font-family: cursive;
+    font-size: 1.5rem;
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.avocado{
+    background-image: url(./images/avocado.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.kiwi {
+    background-image: url(./images/kiwi.png);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.blueberry{
+    background-image: url(./images/blueberry.png);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;   
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.cherry{
+    background-image: url(./images/cherry.png);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.fig{
+    background-image: url(./images/fig.png);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.pomogranate{
+    background-image: url(./images/pomogranate.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.textOnImage{
+    background-color: transparent;
+    width: fit-content;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    margin-left: .4rem;
+    letter-spacing: .2rem;
+}
+
+.space{
+    height: 4rem;
+}
+
+.sp{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    
+}   
+
+.btn{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.5);
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    font-size: .9rem;
+
+
+}
+

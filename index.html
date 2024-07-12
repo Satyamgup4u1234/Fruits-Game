@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fruit Game</title>
+</head>
+
+<body id="content">
+    <script>
+        // prompt("Hey satyam how are you")
+    </script>
+    <br>
+    <div class="nav">
+        <div class="navbar content">Welcome To Fruit club!</div>
+    </div>
+    <p class="bb">Let's Play a Game !</p>
+    <div>
+        <div class="p">1. Choose any Fruit at your mind.</div>
+        <div class="p">2. Click next.</div>
+        <div class="p">3. Repeat it for some times.</div>
+    </div>
+    <br> <br> <br>
+    <div class="images ">
+        <div class="avocado">
+            <p class="textOnImage hoverImg">
+                I am Avocado
+            </p>
+        </div>
+        <div class="kiwi">
+            <p class="textOnImage">
+                I am kiwi
+            </p>
+        </div>
+        <div class="blueberry">
+            <p class="textOnImage">
+                I am blueberry
+            </p>
+        </div>
+        <div class="cherry">
+            <p class="textOnImage">
+                I am cherry
+            </p>
+        </div>
+        <div class="fig">
+            <p class="textOnImage">
+                I am fig
+            </p>
+        </div>
+        <div class="pomogranate">
+            <p class="textOnImage">
+                I am pomogranate
+            </p>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="sp">
+        <div class="button">
+
+            <button class="btn" onclick="window.location.href='./nextpg/index2.html'">Next</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        // window.onload = function () {
+        //     localStorage.removeItem('valuesArray');
+        // };
+
+
+        window.onload = function() {
+    if (window.location.protocol === 'file:') {
+        // Running from file:// protocol, may have restricted access
+        console.warn('Running from file:// protocol, localStorage access may be restricted.');
+    } else {
+        // Running from a server or localhost
+        localStorage.removeItem('valuesArray');
+    }
+};
+
+    </script>
+
+</body>
+
+</html>
