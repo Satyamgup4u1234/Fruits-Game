@@ -126,25 +126,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = nextPage; // Navigate to the next page
     }
 
-    // Function to determine result by image
-    function resultByImage() {
-        if (arraysEqual(valuesArray, avocado)) {
-            console.log("avocado");
-        } else if (arraysEqual(valuesArray, kiwi)) {
-            console.log("kiwi");
-        } else if (arraysEqual(valuesArray, blueberry)) {
-            console.log("blueberry");
-        } else if (arraysEqual(valuesArray, cherry)) {
-            console.log("cherry");
-        } else if (arraysEqual(valuesArray, fig)) {
-            console.log("fig");
-        } else if (arraysEqual(valuesArray, pomegranate)) {
-            console.log("pomegranate");
-        } else {
-            console.log("Match Not Found");
-        }
-    }
-
     // Add event listeners to the buttons after DOM is fully loaded
     document.getElementById('yesButton').addEventListener('click', handleYesClick);
     document.getElementById('noButton').addEventListener('click', handleNoClick);
