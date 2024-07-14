@@ -86,33 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return true;
     }
 
-
-    // Function to navigate to the next page
-    function navigateToNextPage() {
-        const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
-        let nextPage;
-
-        switch (currentPage) {
-            case 'index1.html':
-                nextPage = 'index2.html';
-                break;
-            case 'index2.html':
-                nextPage = 'index3.html';
-                break;
-            case 'index3.html':
-                nextPage = 'index4.html';
-                break;
-            case 'index4.html':
-                nextPage = 'result.html'; // Or any final page you want
-                break;
-            default:
-                nextPage = 'index.html';
-                break;
-        }
-
-        window.location.href = nextPage; // Navigate to the next page
-    }
-
     // Add event listeners to the buttons after DOM is fully loaded
     document.getElementById('yesButton').addEventListener('click', handleYesClick);
     document.getElementById('noButton').addEventListener('click', handleNoClick);
