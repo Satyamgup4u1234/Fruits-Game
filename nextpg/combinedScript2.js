@@ -86,19 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return true;
     }
 
-    // Function to handle the "Yes" button click
-    function handleYesClick() {
-        valuesArray.push(1); // Store the value "1"
-        localStorage.setItem('valuesArray', JSON.stringify(valuesArray)); // Save the array back to local storage
-        navigateToNextPage(); // Navigate to the next page
-    }
-
-    // Function to handle the "No" button click
-    function handleNoClick() {
-        valuesArray.push(0); // Store the value "0"
-        localStorage.setItem('valuesArray', JSON.stringify(valuesArray)); // Save the array back to local storage
-        navigateToNextPage(); // Navigate to the next page
-    }
 
     // Function to navigate to the next page
     function navigateToNextPage() {
